@@ -7,7 +7,7 @@ const launchMainWindow = () => {
   mainWindow = new BrowserWindow({width: 800, height: 600});
   mainWindow.maximize();
   mainWindow.loadUrl(`file://${__dirname}/../client/index.html`);
-  // mainWindow.openDevTools();
+  // mainWindow.openDevTo
   mainWindow.on('closed', () => mainWindow = null);
 };
 
